@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+   
+  
+   
+
+}
+body{
+    background-image: url(jadu.jpg);
+    background-size: contain;
+}
+.mainbox{
+    background-image: url(bg.png);
+    background-size: cover;
+    position: relative;
+    margin: 200px 20px 20px;
+    border: 2px solid black;
+    border-radius: 24px;
+    height: 500px;
+    width: 400px;
+    left: 500px;
+    
+
+}
+.mainbox .pfp{
+    background-image: url(IMG_6946.jpg);
+   background-size: cover;
+  
+   position: relative;
+   margin: auto;
+   border: 2px solid white;
+   top: 40px;
+   border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    
+}
+.name{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.mid{
+    color: white;
+    position: relative;
+    top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.exp{
+    color: rgba(243, 234, 234, 0.678);
+    position: relative;
+    top: 90px;
+    padding-left: 60px;
+   
+    
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.exp:hover{
+    color: rgba(240, 7, 170, 0.678);
+    position: relative;
+    top: 90px;
+    padding-left: 60px;
+   
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.icons{
+    position: relative;
+    top: 120px;
+    left: 100px;
+   background-color: rgb(247, 247, 247);
+    text-decoration: none;
+    
+    width: 210px;
+    font-size: 20px;
+    color: aqua;
+    border: 2px solid white;
+    border-radius: 24px;
+
+}
+.insta{
+    text-decoration: none;
+    margin-left:20px;
+   
+}
+.facebook{
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: center;
+    
+  
+}
+.twitter{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.youtube    {
+    text-decoration: none;
+   margin-left: 20px;
+}
+.insta:hover{
+    text-decoration: none;
+  
+    background-color: rgba(1, 1, 14, 0.295);
+    border-radius: 100px;
+    
+}
+.facebook:hover{
+    text-decoration: none;
+    background-color: rgba(1, 1, 14, 0.295);
+    border-radius: 100px;
+}
+.twitter:hover{
+    text-decoration: none;
+    background-color: rgba(1, 1, 14, 0.295);
+    border-radius: 100px;
+}
+
+.youtube:hover{
+    text-decoration: none;
+    background-color: rgba(1, 1, 14, 0.295);
+    border-radius: 100px;
+   
+}
+.mainbox .pfp:hover{
+    background-image: url(IMG_6946.jpg);
+   background-size: cover;
+  cursor: pointer;
+ transition: ease-in-out;
+ transition: 1s;
+
+   position: relative;
+   margin: auto;
+   border: 2px solid rgb(241, 27, 159);
+   top: 40px;
+   border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    transform: rotateY(360deg);
+    
+}
